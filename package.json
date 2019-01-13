@@ -1,0 +1,22 @@
+{
+  "name": "oswald",
+  "version": "1.0.0",
+  "description": "presentation training with speech to text ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export -o docs",
+    "deploy": "next build && next export -o docs && cd docs && touch CNAME && echo \"hack.rice.edu\" >> CNAME && touch .nojekyll && cd .. && git add docs && git commit -m \"regen site\""
+  },
+  "repository": "https://github.com/gvacaliuc/oswald.git",
+  "author": "schpliff labs",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^7.0.2",
+    "next-images": "^1.0.4",
+    "react-audio-recorder": "^2.2.0",
+    "rebass": "^3.0.0"
+  }
+}
