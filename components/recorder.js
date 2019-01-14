@@ -1,3 +1,7 @@
-import AudioRecorder from 'react-audio-recorder';
+import Recorder from 'react-recorder'
 
-export default Recorder = () => <AudioRecorder />
+const onStop = (blob) => {
+    console.log(blob);
+} 
+
+export default AudioRecorder = () => <Recorder onStop={onStop}/>

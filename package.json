@@ -16,7 +16,6 @@
   "dependencies": {
     "next": "^7.0.2",
     "next-images": "^1.0.4",
-    "react-audio-recorder": "^2.2.0",
     "rebass": "^3.0.0"
   }
 }
