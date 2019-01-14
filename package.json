@@ -14,8 +14,11 @@
   "author": "schpliff labs",
   "license": "MIT",
   "dependencies": {
+    "@google-cloud/speech": "^2.1.2",
     "next": "^7.0.2",
     "next-images": "^1.0.4",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
     "rebass": "^3.0.0"
   }
 }
