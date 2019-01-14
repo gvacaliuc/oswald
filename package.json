@@ -7,15 +7,18 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "export": "next build && next export -o docs",
-    "deploy": "next build && next export -o docs && cd docs && touch CNAME && echo \"hack.rice.edu\" >> CNAME && touch .nojekyll && cd .. && git add docs && git commit -m \"regen site\""
+    "export": "next build && next export -o docs"
   },
   "repository": "https://github.com/gvacaliuc/oswald.git",
   "author": "schpliff labs",
   "license": "MIT",
   "dependencies": {
+    "jsdom": "^13.1.0",
     "next": "^7.0.2",
     "next-images": "^1.0.4",
-    "rebass": "^3.0.0"
+    "react-audio-recorder": "^2.2.0",
+    "rebass": "^3.0.0",
+    "recorder-js": "^1.0.7",
+    "recorderjs": "^1.0.1"
   }
 }
